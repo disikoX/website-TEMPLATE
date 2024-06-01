@@ -6,6 +6,19 @@
     /* background-attachment: fixed; */
 }
 
-.background-linear-blue {
-    background: linear-gradient(to right, rgb(0, 0, 255), rgba(0, 0, 255, 0.4));
+.background-with-people-holding {
+    background-image: url("../../assets/5e5d1dd77efaf7950e05dbe3_Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.background-linear-blue-50 {
+    background: linear-gradient(to right, rgb(0, 0, 255), rgba(0, 0, 255, 0.5));
+}
+
+.background-linear-blue-25 {
+    background: linear-gradient(to right, rgb(0, 0, 255), rgba(0, 0, 255, 0.75) 45%, rgba(0, 0, 255, 0.7) 65%,
+            rgba(0, 0, 255, 0.5) 95%);
 }
