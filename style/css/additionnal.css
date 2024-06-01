@@ -1,0 +1,11 @@
+.background-with-dude-taking-note {
+    background-image: url("../../assets/2021-08-11\ 11_56_16-https___assets.website-files.com_58344fd37e3fa797242db5f3_5e5d236f7efaf753f50604.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.background-linear-blue {
+    background: linear-gradient(to right, rgb(0, 0, 255), rgba(0, 0, 255, 0.4));
+}
