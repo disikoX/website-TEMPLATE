@@ -12,7 +12,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg sticky-top bg-white">
-    <div class="container px-lg-5 py-2 py-lg-3">
+    <div class="container px-lg-5 py-1 py-lg-2">
 
       <a href="#" class="navbar-brand">
         <img src="./assets/586bc0fc04bfdaea725ff556_logo.png" alt="flatkit_logo" width="75">
@@ -26,11 +26,11 @@
       <div class="d-flex"><!--collapse navbar-collapse id="navbarContent"-->
         <ul class="navbar-nav">
 
-          <li class="mx-lg-2 nav-item">
+          <li class="mx-lg-2 nav-item soulignement">
             <a href="#" class="nav-link">Intro</a>
           </li>
 
-          <li class="mx-lg-2 nav-item dropdown">
+          <li class="mx-lg-2 nav-item dropdown soulignement">
             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Homepage
             </a>
@@ -44,31 +44,31 @@
             </ul> -->
           </li>
 
-          <li class="mx-lg-2 nav-item dropdown">
+          <li class="mx-lg-2 nav-item dropdown soulignement">
             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Misc
             </a>
           </li>
 
-          <li class="mx-lg-2 nav-item dropdown">
+          <li class="mx-lg-2 nav-item dropdown soulignement">
             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               About
             </a>
           </li>
 
-          <li class="mx-lg-2 nav-item dropdown">
+          <li class="mx-lg-2 nav-item dropdown soulignement">
             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Projects
             </a>
           </li>
 
-          <li class="mx-lg-2 nav-item dropdown">
+          <li class="mx-lg-2 nav-item dropdown soulignement">
             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Pricing
             </a>
           </li>
 
-          <li class="mx-lg-2 nav-item dropdown">
+          <li class="mx-lg-2 nav-item dropdown soulignement">
             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Contact
             </a>
@@ -78,19 +78,19 @@
       </div>
       <div class="d-flex">
         <ul class="navbar-nav">
-          <li class="nav-item">
+          <li class="nav-item soulignement">
             <a href="http://web.facebook.com" class="nav-link">
               <img src="./assets/583458296153588324e360bb_font-awesome_4-7-0_facebook_100_0_919191_none.png"
                 alt="facebook_icon" width="25">
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item soulignement">
             <a href="http://x.com" class="nav-link">
               <img src="./assets/583458cf801ad6fd2b2a4b8b_font-awesome_4-7-0_twitter_100_0_919191_none.png"
                 alt="twitter_icon" width="25">
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item soulignement">
             <a href="http://plus.google.com" class="nav-link">
               <img src="./assets/583458ec2ca06fbf2bd83f99_font-awesome_4-7-0_google-plus_100_0_919191_none.png"
                 alt="googleplus_icon" width="25">
@@ -101,29 +101,121 @@
     </div>
   </nav>
 
-  <main class="container">
-    <section class="section" id="consultingForm">
-      <div width="100%" class="background-with-dude-taking-note">
-        <div class="background-linear-blue">
-          <div class="card">
-            <h2 class=""><b>FREE CONSULTING</b></h2>
-            <span></span>
-            <form action="" method="post" class="d-flex">
-              <label for="name">YOUR NAME</label>
-              <input type="text" name="name" id="name">
-              <label for="email">YOUR EMAIL</label>
-              <input type="email" name="email" id="email">
-              <label for="phone">YOUR PHONE</label>
-              <input type="tel" name="phone" id="phone">
-            </form>
+  <main>
+    <section id="consultingForm">
+      <div class="background-with-dude-taking-note">
+        <div class="align-items-center background-linear-blue-50 py-5">
+          <div class="col-6 offset-3 col-lg-4 offset-lg-2 col-xxl-3 offset-xxl-3 my-5">
+            <div class="card rounded-5">
+              <div class="card-body p-5">
+                <p class="card-title h3 pb-3">
+                  <b>FREE CONSULTING</b>
+                </p>
+                <div class="fixed-soulignement" style="width: 18% !important;"></div>
+                <div class="card-text m-1">
+                  <form action="" method="post" class="d-flex flex-column">
+                    <label class="form-label small fw-semibold strong mt-4" for="name">YOUR NAME</label>
+                    <input class="form-control py-3 mb-4" type="text" name="name" id="name"
+                      placeholder="Enter your name">
+                    <label class="form-label small fw-semibold strong" for="email">YOUR E-MAIL</label>
+                    <input class="form-control py-3 mb-4" type="email" name="email" id="email"
+                      placeholder="Enter your email address">
+                    <label class="form-label small fw-semibold strong" for="phone">YOUR PHONE</label>
+                    <input class="form-control py-3 mb-4" type="tel" name="phone" id="phone"
+                      placeholder="Enter your phone number">
+                    <input class="btn btn-primary" type="submit" value="APPLY NOW">
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <img src="./model.png" alt="model" width="100%">
+
+    <section id="services">
+      <div class="container px-lg-5 my-5">
+        <div class="d-flex flex-column align-items-center">
+          <h6 class="section-title pt-5 pb-4">OUR SERVICE</h6>
+          <h3 class="section-subtitle pb-3">WHAT WE DO</h3>
+          <div class="fixed-soulignement" style="width: 5% !important;"></div>
+        </div>
+
+        <div class="my-5">
+          <div class="container px-lg-5">
+            <nav class="nav navbar justify-content-center nav-justified">
+              <li class="mx-lg-2 nav-item">
+                <a href="#services" class="nav-link soulignement-tabs p-lg-4 active">1. Financial Planing</a>
+              </li>
+
+
+              <li class="mx-lg-2 nav-item">
+                <a href="#services" class="nav-link soulignement-tabs p-lg-4 disabled">2. Investment Advisor</a>
+              </li>
+
+              <li class="mx-lg-2 nav-item">
+                <a href="#services" class="nav-link soulignement-tabs p-lg-4 disabled">3. Saving Money</a>
+              </li>
+
+              <li class="mx-lg-2 nav-item">
+                <a href="#services" class="nav-link soulignement-tabs p-lg-4 disabled">4. Mortgage Advisor</a>
+              </li>
+            </nav>
+          </div>
+          <div class="row my-5">
+            <div class="col-auto col-lg-6 d-flex align-items-center">
+              <img src="./assets/587f7614adb8cc376b7332b5_cons-3.jpg" alt="woman_holding_sac" width="100%"
+                class="rounded-4">
+            </div>
+            <div class="col-auto col-lg-6 mt-5 mt-lg-0">
+              <div class="container px-lg-5 py-lg-3 d-flex flex-column">
+                <span class="display-6 fw-bolder mb-4">Financial Planning</span>
+                <p class="section-quote h4 mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ad itaque? Natus, non? Vero nihil,
+                  voluptates aspernatur, inventore ea fuga alias vitae laudantium sunt sed natus, voluptatum quia ut!
+                  Debitis.
+                </p>
+                <p class="section-quote h4">
+                  Autem, doloribus corporis! Nam accusamus explicabo perspiciatis voluptatibus veritatis dolore
+                  provident tempora temporibus dolor ipsa?
+                </p>
+              </div>
+            </div>
+          </div>
+          <span class="btn btn-large btn-primary py-3 d-block"><b>GET A FREE QUOTE</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="background-with-people-holding" id="funFacts">
+      <div class=" align-items-center background-linear-blue-25">
+      </div>
+    </section>
+
+    <section id="testimonials">
+      testimonials
+    </section>
+
+    <section id="faq">
+      faq
+    </section>
+
+    <section id="logos">
+      logos
+    </section>
+
+    <section id="callBack">
+      callback
+    </section>
+
+    <!-- <img src="./model.png" alt="model" width="100%"> -->
   </main>
 
-  <footer></footer>
+  <footer class="footer">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, illum ipsum adipisci optio
+    iure laborum eveniet neque deserunt explicabo, in natus velit nisi? Dolores voluptates consequatur quae a veniam
+    nemo!
+  </footer>
   <script src="./style/js/bootstrap.min.js"></script>
 </body>
 
