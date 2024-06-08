@@ -33,11 +33,27 @@
     border-bottom: 2px solid transparent;
 }
 
-.soulignement:hover {
+.soulignement-tabs {
+    font-weight: 700;
+    transition: 400ms;
+    border-bottom: 4px solid transparent;
+}
+
+.soulignement:hover,
+.soulignement-tabs:hover {
     border-color: blue;
 }
 
 .btn:hover {
     background-color: lightblue;
     color: black;
+}
+
+a {
+    color: black !important;
+}
+
+.active {
+    color: blue !important;
+    border-color: blue !important;
 }
