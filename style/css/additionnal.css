@@ -22,3 +22,17 @@
     background: linear-gradient(to right, rgb(0, 0, 255), rgba(0, 0, 255, 0.75) 45%, rgba(0, 0, 255, 0.7) 65%,
             rgba(0, 0, 255, 0.5) 95%);
 }
+
+
+.fixed-soulignement {
+    border-bottom: 4px solid blue;
+}
+
+.soulignement {
+    transition: 400ms;
+    border-bottom: 2px solid transparent;
+}
+
+.soulignement:hover {
+    border-color: blue;
+}
