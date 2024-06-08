@@ -2,9 +2,13 @@
     font-family: 'Mona Sans', 'Montserrat', 'URW Gothic';
 }
 
-.section-title {
+.section-title,
+.section-quote {
     font-family: 'Freeserif', 'Avelire';
     color: gray;
+}
+
+.section-title {
     letter-spacing: 4px;
 }
 

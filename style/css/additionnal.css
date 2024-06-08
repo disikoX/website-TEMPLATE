@@ -36,3 +36,8 @@
 .soulignement:hover {
     border-color: blue;
 }
+
+.btn:hover {
+    background-color: lightblue;
+    color: black;
+}
