@@ -102,7 +102,7 @@
   </nav>
 
   <main>
-    <section id="consultingForm">
+    <section id="consulting-form">
       <div class="background-with-dude-taking-note">
         <div class="align-items-center background-linear-blue-50 py-5">
           <div class="col-6 offset-3 col-lg-4 offset-lg-2 col-xxl-3 offset-xxl-3 my-5">
@@ -113,17 +113,18 @@
                 </p>
                 <div class="fixed-soulignement" style="width: 18% !important;"></div>
                 <div class="card-text m-1">
-                  <form action="" method="post" class="d-flex flex-column">
+                  <form target="_blank" action="http://www.action-creation.fr/cnam/HTML_CSS/chapitre4/validateForm.php"
+                    method="post" class="d-flex flex-column">
                     <label class="form-label small fw-semibold strong mt-4" for="name">YOUR NAME</label>
-                    <input class="form-control py-3 mb-4" type="text" name="name" id="name"
-                      placeholder="Enter your name">
+                    <input class="form-control border-0 py-3 mb-4" type="text" name="name" id="name"
+                      placeholder="Enter your name" required>
                     <label class="form-label small fw-semibold strong" for="email">YOUR E-MAIL</label>
-                    <input class="form-control py-3 mb-4" type="email" name="email" id="email"
-                      placeholder="Enter your email address">
+                    <input class="form-control border-0 py-3 mb-4" type="email" name="email" id="email"
+                      placeholder="Enter your email address" required>
                     <label class="form-label small fw-semibold strong" for="phone">YOUR PHONE</label>
-                    <input class="form-control py-3 mb-4" type="tel" name="phone" id="phone"
-                      placeholder="Enter your phone number">
-                    <input class="btn btn-primary" type="submit" value="APPLY NOW">
+                    <input class="form-control border-0 py-3 mb-4" type="tel" name="phone" id="phone"
+                      placeholder="Enter your phone number" required>
+                    <input class="btn btn-large btn-primary d-block fw-semibold" type="submit" value="APPLY NOW">
                   </form>
                 </div>
               </div>
@@ -134,10 +135,10 @@
     </section>
 
     <section id="services">
-      <div class="container px-lg-5 my-5">
+      <div class="container px-lg-5 my-5 py-4">
         <div class="d-flex flex-column align-items-center">
           <h6 class="section-title pt-5 pb-4">OUR SERVICE</h6>
-          <h3 class="section-subtitle pb-3">WHAT WE DO</h3>
+          <h3 class="section-subtitle pb-4">WHAT WE DO</h3>
           <div class="fixed-soulignement" style="width: 5% !important;"></div>
         </div>
 
@@ -182,17 +183,44 @@
               </div>
             </div>
           </div>
-          <span class="btn btn-large btn-primary py-3 d-block"><b>GET A FREE QUOTE</b></span>
+          <span class="btn btn-large btn-primary py-3 d-block fw-semibold">GET A FREE QUOTE</span>
         </div>
       </div>
     </section>
 
-    <section class="background-with-people-holding" id="funFacts">
-      <div class=" align-items-center background-linear-blue-25">
+    <section id="fun-facts">
+      <div class="background-with-people-holding">
+        <div class=" align-items-center background-linear-blue-25">
+          <div class="container px-lg-5 my-5 py-5">
+            <div class="d-flex flex-column align-items-center text-center">
+              <h6 class="section-title pt-5 pb-4 text-light">FUN FACTS</h6>
+              <h2 class="section-subtitle">DOING THE RIGHT THING,</h2>
+              <h2 class="section-subtitle pb-4">AT THE RIGHT TIME</h2>
+              <div class="fixed-soulignement-white" style="width: 5% !important;"></div>
+            </div>
+
+            <div class="my-5 py-5">
+              <div class="row">
+                <div class="col-12 col-lg-4 d-flex flex-column align-items-center mb-5 mb-lg-0">
+                  <h2 class="display-1 fw-normal">27</h2>
+                  <p class="section-title text-light">CASES COMPLETED</p>
+                </div>
+                <div class="col-12 col-lg-4 d-flex flex-column align-items-center mb-5 mb-lg-0">
+                  <h2 class="display-1 fw-normal">47</h2>
+                  <p class="section-title text-light">CONSULTANTS</p>
+                </div>
+                <div class="col-12 col-lg-4 d-flex flex-column align-items-center mb-5 mb-lg-0">
+                  <h2 class="display-1 fw-normal">100%</h2>
+                  <p class="section-title text-light">SATISFIED CUSTOMERS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="testimonials">
+    <!-- <section id="testimonials">
       testimonials
     </section>
 
@@ -206,16 +234,15 @@
 
     <section id="callBack">
       callback
-    </section>
+    </section> -->
 
-    <!-- <img src="./model.png" alt="model" width="100%"> -->
   </main>
 
-  <footer class="footer">
+  <!-- <footer class="footer">
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, illum ipsum adipisci optio
     iure laborum eveniet neque deserunt explicabo, in natus velit nisi? Dolores voluptates consequatur quae a veniam
     nemo!
-  </footer>
+  </footer> -->
   <script src="./style/js/bootstrap.min.js"></script>
 </body>
 

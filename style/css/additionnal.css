@@ -16,16 +16,22 @@
 
 .background-linear-blue-50 {
     background: linear-gradient(to right, rgb(0, 0, 255), rgba(0, 0, 255, 0.5));
+    color: white;
 }
 
 .background-linear-blue-25 {
     background: linear-gradient(to right, rgb(0, 0, 255), rgba(0, 0, 255, 0.75) 45%, rgba(0, 0, 255, 0.7) 65%,
             rgba(0, 0, 255, 0.5) 95%);
+    color: white;
 }
 
 
 .fixed-soulignement {
     border-bottom: 4px solid blue;
+}
+
+.fixed-soulignement-white {
+    border-bottom: 4px solid white;
 }
 
 .soulignement {
@@ -56,4 +62,12 @@ a {
 .active {
     color: blue !important;
     border-color: blue !important;
+}
+
+.form-control {
+    background-color: rgba(211, 211, 211, 0.3);
+}
+
+.form-control::placeholder {
+    color: grey;
 }
